@@ -1,4 +1,4 @@
-Title: Crime Patterns in South Australia (working title)
+Title: Crime Patterns in South Australia 2013 - 2022 (working title)
 
 Project team:
 Andy Newman
@@ -6,11 +6,13 @@ Clinton Idehen
 Nathan Teakle
 Tim Cook
 
-Why:
+Project Description:
+An analys
 
 What Data Sets?
 https://data.sa.gov.au/data/dataset/crime-statistics
-Crime Data sets from last 5 years 2017 - 2022
+Crime Data sets from last 10 years 2013 - 2022
+
 
 
 What we want to achieve:
@@ -18,13 +20,16 @@ What we want to achieve:
 Questions to answer:
 - What sort of crimes are most prevalent in SA? (c1, c2, c3)
 - What postcodes are the least and most safe (least violent crimes)
-- What time of the year do most violent crimes occur? (add columns for Season, month, DoW? etc)
+- What time of the year do most violent crimes occur? (add columns for Season, month, DoW?, Xmas, Easter, etc)
 - What crime patterns can be seen over time?
-- Has crime rates increased since COVID? (regression)
+- Has crime rates increased since COVID? (regression) (subset 2017 - 2022)
 
 
 
 Process:
 -Ingest data via URLs rather than download upload csv
+  -Merge all files into big df
+  -subset for individual questions
+  -Add date field
 -Clean data
 -How to handle crimes that do not have postcodes (sensitive crimes)
