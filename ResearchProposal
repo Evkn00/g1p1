@@ -1,12 +1,24 @@
-Research proposal goes here...
+Title: Crime Patterns in South Australia (working title)
+
+Project team:
+Andy Newman
+Clinton Idehen
+Nathan Teakle
+Tim Cook
 
 Why:
 
 What we want to achieve:
 
 Questions to answer:
+- What sort of crimes are most prevalent in SA? (c1, c2, c3)
+- What postcodes are the least and most safe (least violent crimes)
+- What time of the year do most violent crimes occur?
+- What crime patterns can be seen over time?
+- Has crime rates increased since COVID?
 
 
 Process:
+-Ingest data via URLs rather than download upload csv
 -Clean data
 -How to handle crimes that do not have postcodes (sensitive crimes)
