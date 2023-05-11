@@ -8,14 +8,20 @@ Tim Cook
 
 Why:
 
+What Data Sets?
+https://data.sa.gov.au/data/dataset/crime-statistics
+Crime Data sets from last 5 years 2017 - 2022
+
+
 What we want to achieve:
 
 Questions to answer:
 - What sort of crimes are most prevalent in SA? (c1, c2, c3)
 - What postcodes are the least and most safe (least violent crimes)
-- What time of the year do most violent crimes occur?
+- What time of the year do most violent crimes occur? (add columns for Season, month, DoW? etc)
 - What crime patterns can be seen over time?
-- Has crime rates increased since COVID?
+- Has crime rates increased since COVID? (regression)
+
 
 
 Process:
