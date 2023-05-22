@@ -1,10 +1,16 @@
 # g1p1
 repo for group 1 project 1 audabc
 
+See the wiki for project outline (https://github.com/Evkn00/g1p1/wiki)
 
 #notes
-Main file is huge, loading from CSVs may take a minute or so.
-Fixed dtype of offence count
-Have not yet removed missing values as this may be different depending on what we are charting, so leaving this up to individual processes.
+Python Files
+- Main.ipynb - Initial data set ingest and manipulation. 
+- output/offences_dates.csv - data file output from Main to allow group members to work invidiually.
+- tc-main2.iynb - Tim Cook's file for creating the maps and statistics for analysis of high crime areas.
+- nteakle-main.ipynb - Nathan Teakle's working file for analysis of the effect of seasons on crime rates. 
+- Andy.ipynb - Andy Newman's workings file for Analysis of the effect of COVID on crime rates. 
+- [CLINTON's FILE]
 
-Would reccomend working from offences_dates as this filters out everything except offences against the person and adds fields for month and year. 
+- [Presentation slides]
+- [Written Document]
